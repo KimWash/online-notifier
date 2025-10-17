@@ -1,0 +1,15 @@
+{
+  "name": "fuck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node installer.js && sudo mv do-not-forget-homework.plist ~/Library/LaunchAgents/com.dnfh.plist && sudo launchctl load ~/Library/LaunchAgents/com.dnfh.plist"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "node-reminders": "^1.0.0",
+    "puppeteer": "*",
+    "qs": "*"
+  }
+}
